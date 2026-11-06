@@ -1,0 +1,11 @@
+Transformational AI: Analyzing Ecommerce Large Datasets for Machine Learning
+Completed by: Bruna Periquito
+—————————————-
+
+Question 1: The Dataset contains Amazon eletronics reviews, Starting with a Rating Column which is a float number that goes from 1.0 to 5.0, after that we can see descriptive columns with text written by the users with a title and the text of the review, other present columns are: images(link), asin(str), parent_asin(str), user_id(str), Timestamp(int), helpful_vote (int), verified_purchase(boolean), The reviwes are structured in a table, Overall, the reviews are structured so that each row represents one review and each column represents a specific attribute of that review.
+Question 2: I think that in general this visualization is not so readable than the table before.
+Question 3: we reduced the amount of data and set a larger display width, and a column width for better visibility 
+Question 4: Comparing to the other dataset, this one has more information, here we can also see a main_categorie, a price for each product, how many reviews the product has, and many more important information
+Question 5: For me the table is still the most insightful and helpful data analysis method, because it contains a lot of helpful information, such as columns, reviews, rating, and users inputs
+Question 6: The price tends to follow the frequency of rating
+Question 7: The low pricing products have the highly average rating 
