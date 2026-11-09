@@ -37,13 +37,13 @@ pip install "datasets<4" pandas matplotlib seaborn pyarrow
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/bperiquito/python_data_project>
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd <repository-name>
+cd <python_data_project>
 ```
 
 3. Install the required dependencies:
@@ -97,11 +97,19 @@ The dataset is loaded using streaming and limited to a sample of 100 reviews.
 
 The collected reviews are converted into a pandas DataFrame for exploration.
 
+Screenshot:
+![Dataextraction1](screenshots/first%20data%20extraction%20part1.png)
+![Dataextraction2](screenshots/second%20data%20extraction%20products%20part2.jpg)
+
 ### 3. Product Metadata
 
 Load the Electronics product metadata dataset and collect a sample of 100 products.
 
 The metadata is converted into a pandas DataFrame containing information about the products, including their titles, ratings, and prices.
+
+Screenshot:
+![Dataextraction21](screenshots/second%20data%20extraction%20products%20part1.jpg)
+![Dataextraction22](screenshots/second%20data%20extraction%20products%20part2.jpg)
 
 ### 4. Data Exploration
 
@@ -141,6 +149,8 @@ The resulting dataset is stored in:
 ```python
 top_products_df
 ```
+Screenshot:
+![Cleaning](screenshots/cleaning%20the%20data%20to%20top%20products%20only.jpg)
 
 ### 7. Percentage Calculation
 
@@ -167,6 +177,9 @@ A scatterplot is also created to explore the relationship between:
 - Product price
 - Average rating
 
+Screenshot:
+![View1](screenshots/creating%20data%20visualization%20for%20BI%20team.jpg)
+
 ### 10. Highly Rated Products Dashboard
 
 For the final analysis, products with an average rating of **4.7 or higher** are selected.
@@ -174,6 +187,9 @@ For the final analysis, products with an average rating of **4.7 or higher** are
 The products are sorted by average rating in descending order and displayed as a table.
 
 A scatterplot visualizes the relationship between price and rating for these highly rated products.
+
+Screenshot:
+![View2](screenshots/creating%20data%20visualization%20for%20BI%20team2.jpg)
 
 ### 11. Exporting Results
 
@@ -183,6 +199,8 @@ The final cleaned dataset is exported into two formats:
 top_products.csv
 top_products.parquet
 ```
+Screenshot:
+![Files](screenshots/Saving%20the%20data%20for%20IA%20team.jpg)
 
 The project also produces a `user_inputs.txt` file containing responses to the reflection questions completed throughout the notebook.
 
