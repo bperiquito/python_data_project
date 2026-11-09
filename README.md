@@ -150,8 +150,8 @@ The resulting dataset is stored in:
 top_products_df
 ```
 Screenshot:
-![Cleaning](Screenshots/cleaning%20the%20data%20to%20top%20products%20only.jpg)
-<img src="Screenshots/cleaning the data to top products only.jpg" alt="Screenshots" width="70%">
+
+<img src="Screenshots/cleaning the data to top products only.jpg" alt="Screenshots" width="50%">
 
 ### 7. Percentage Calculation
 
