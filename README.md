@@ -98,7 +98,7 @@ The dataset is loaded using streaming and limited to a sample of 100 reviews.
 The collected reviews are converted into a pandas DataFrame for exploration.
 
 Screenshot:
-![Dataextraction1](screenshots/first%20data%20extraction%20part1.png)
+![Dataextraction1](screenshots/firstdataextractionpart1.png)
 ![Dataextraction2](screenshots/second%20data%20extraction%20products%20part2.jpg)
 
 ### 3. Product Metadata
