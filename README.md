@@ -98,7 +98,7 @@ The dataset is loaded using streaming and limited to a sample of 100 reviews.
 The collected reviews are converted into a pandas DataFrame for exploration.
 
 Screenshot:
-![Dataextraction1](Screenshots/firstdataextractionpart1.png)
+![Dataextraction1](Screenshots/first%20data%20extraction%20part1.png)
 ![Dataextraction2](Screenshots/second%20data%20extraction%20products%20part2.jpg)
 
 ### 3. Product Metadata
@@ -108,8 +108,8 @@ Load the Electronics product metadata dataset and collect a sample of 100 produc
 The metadata is converted into a pandas DataFrame containing information about the products, including their titles, ratings, and prices.
 
 Screenshot:
-![Dataextraction21](screenshots/second%20data%20extraction%20products%20part1.jpg)
-![Dataextraction22](screenshots/second%20data%20extraction%20products%20part2.jpg)
+![Dataextraction21](Screenshots/second%20data%20extraction%20products%20part1.jpg)
+![Dataextraction22](Screenshots/second%20data%20extraction%20products%20part2.jpg)
 
 ### 4. Data Exploration
 
@@ -150,7 +150,7 @@ The resulting dataset is stored in:
 top_products_df
 ```
 Screenshot:
-![Cleaning](screenshots/cleaning%20the%20data%20to%20top%20products%20only.jpg)
+![Cleaning](Screenshots/cleaning%20the%20data%20to%20top%20products%20only.jpg)
 
 ### 7. Percentage Calculation
 
@@ -178,7 +178,7 @@ A scatterplot is also created to explore the relationship between:
 - Average rating
 
 Screenshot:
-![View1](screenshots/creating%20data%20visualization%20for%20BI%20team.jpg)
+![View1](Screenshots/creating%20data%20visualization%20for%20BI%20team.jpg)
 
 ### 10. Highly Rated Products Dashboard
 
@@ -189,7 +189,7 @@ The products are sorted by average rating in descending order and displayed as a
 A scatterplot visualizes the relationship between price and rating for these highly rated products.
 
 Screenshot:
-![View2](screenshots/creating%20data%20visualization%20for%20BI%20team2.jpg)
+![View2](Screenshots/creating%20data%20visualization%20for%20BI%20team2.jpg)
 
 ### 11. Exporting Results
 
@@ -200,7 +200,7 @@ top_products.csv
 top_products.parquet
 ```
 Screenshot:
-![Files](screenshots/Saving%20the%20data%20for%20IA%20team.jpg)
+![Files](Screenshots/Saving%20the%20data%20for%20IA%20team.jpg)
 
 The project also produces a `user_inputs.txt` file containing responses to the reflection questions completed throughout the notebook.
 
