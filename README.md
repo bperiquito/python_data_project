@@ -151,6 +151,7 @@ top_products_df
 ```
 Screenshot:
 ![Cleaning](Screenshots/cleaning%20the%20data%20to%20top%20products%20only.jpg)
+<img src="Screenshots/cleaning the data to top products only.jpg" alt="Screenshots" width="70%">
 
 ### 7. Percentage Calculation
 
